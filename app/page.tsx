@@ -1,3 +1,9 @@
+import UI from './ui';
+
 export default function Page() {
-  return <div>page</div>;
+  return (
+    <main>
+      <UI />
+    </main>
+  );
 }
