@@ -7,7 +7,7 @@ export type TodoRow = Database['public']['Tables']['todos']['Row'];
 export type TodoRowInsert = Database['public']['Tables']['todos']['Insert'];
 export type TodoRowUpdate = Database['public']['Tables']['todos']['Update'];
 
-function handleError(error) {
+function handleError(error: any) {
   console.error(error);
   throw new Error(error.message);
 }
